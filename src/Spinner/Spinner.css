@@ -1,3 +1,9 @@
+.spinner-container{
+    text-align: center;
+    margin-top: calc(30svh);
+    height: 40svh;
+}
+
 .lds-ellipsis {
     display: inline-block;
     position: relative;

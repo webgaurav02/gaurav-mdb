@@ -89,9 +89,19 @@
 @media only screen and (max-width: 767px) {
     .movie-info{
         padding-top: 40%;
+        padding-bottom: 20%;
+    }
+
+    .movie-left{
+        margin-bottom: 10%;
+    }
+
+    .movie-right h1{
+        text-align: center;
     }
 
     .movie-right{
-        padding: 10%;
+        text-align: left;
+        padding: 2%;
     }
 }
