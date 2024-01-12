@@ -2,21 +2,59 @@
     min-height: 100svh;
     display: flex;
     align-items: center;
+    background-color: #2b4162;
+    background-image: linear-gradient(315deg, #12100e 0%, #0e1a2b 74%);
+    backdrop-filter: blur(10px);
+    color: white;
 }
 
 .search-movie{
     padding-top: 1.5%;
+    padding-left: 5%;
 }
 
 .search-movie input{
+    padding: 1% 3%;
     width: calc(100% - 100px);
     margin-right: 10px;
     border: 1px solid black;
     border-radius: 100px;
 }
 
+.search-movie input::placeholder{
+    opacity: 0.5;
+    font-size: 0.9rem;
+}
+
 .search-movie button{
+    color: white;
     background: none;
     border-radius: 100px;
     border: none;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .home{
+        text-align: center;
+    }
+
+    .home-text{
+        padding: 0 15%;
+    }
+
+    .home h1{
+        text-align: left;
+    }
+
+    .home p{
+        text-align: left;
+    }
+
+    .search-movie{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30svh;
+    }
 }

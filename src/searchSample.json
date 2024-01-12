@@ -1,0 +1,76 @@
+{
+    "Search": [
+      {
+        "Title": "National Lampoon's Animal House",
+        "Year": "1978",
+        "imdbID": "tt0077975",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BM2M2ZDA4MTYtOGRjMi00OTg5LWI1ZTUtMjQxZTc2NWZjNDFkXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
+      },
+      {
+        "Title": "The Animal",
+        "Year": "2001",
+        "imdbID": "tt0255798",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNTFkOGY2ZmItMjllOS00NDgxLTg1OTItMDU5NjhjYTBjMzdkXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SX300.jpg"
+      },
+      {
+        "Title": "Animal Kingdom",
+        "Year": "2010",
+        "imdbID": "tt1313092",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ2NjcwNjE4NV5BMl5BanBnXkFtZTcwNDU2NDg1Mw@@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Animal",
+        "Year": "2023",
+        "imdbID": "tt13751694",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNGViM2M4NmUtMmNkNy00MTQ5LTk5MDYtNmNhODAzODkwOTJlXkEyXkFqcGdeQXVyMTY1NDY4NTIw._V1_SX300.jpg"
+      },
+      {
+        "Title": "Animal Kingdom",
+        "Year": "2016–2022",
+        "imdbID": "tt5574490",
+        "Type": "series",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMmMxMmRiODItYTg5NS00ZWU0LTlhMmYtNDQ1NjFlNGZmYjNiXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_SX300.jpg"
+      },
+      {
+        "Title": "Animal Farm",
+        "Year": "1954",
+        "imdbID": "tt0047834",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTJiYmViNjItOWQyZC00NWMyLWJiODMtNzUxMDQ0MDcyNjFlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Animal Crackers",
+        "Year": "1930",
+        "imdbID": "tt0020640",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNWZhYzk5NTQtZmViYS00ZjZlLTk0M2MtNWI4NGY4MGJkNmZmXkEyXkFqcGdeQXVyNjUwMzI2NzU@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Animal Factory",
+        "Year": "2000",
+        "imdbID": "tt0204137",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNzYxYTIyNTMtMWE4NC00ZTc3LTg5NTAtY2U1Yjg0ZGE1ZDFiXkEyXkFqcGdeQXVyNzgzODI1OTE@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Animal",
+        "Year": "2014",
+        "imdbID": "tt2996684",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ3OTAxMjQzNl5BMl5BanBnXkFtZTgwODM4ODk4MTE@._V1_SX300.jpg"
+      },
+      {
+        "Title": "Animal Farm",
+        "Year": "1999",
+        "imdbID": "tt0204824",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTUzMDMzMTgzOV5BMl5BanBnXkFtZTcwMjg5MDQyMQ@@._V1_SX300.jpg"
+      }
+    ],
+    "totalResults": "1092",
+    "Response": "True"
+  }

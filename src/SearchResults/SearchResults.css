@@ -1,0 +1,15 @@
+.search-results{
+    color: white;
+    text-align: center;
+    padding: 10% 5%;
+    min-height: 100svh;
+    background-color: #2b4162;
+    background-image: linear-gradient(315deg, #12100e 0%, #0e1a2b 74%);
+    backdrop-filter: blur(10px);
+}
+
+@media only screen and (max-width: 767px) {
+    .search-results{
+        padding-top: 30%;
+    }
+}

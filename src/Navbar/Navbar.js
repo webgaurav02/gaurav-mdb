@@ -4,14 +4,14 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <nav className="navbar navbar-expand-lg fixed-top">
 
                 {/* Brand */}
-                <a className="navbar-brand" href="/">GauravMDB</a>
+                <a className="navbar-brand" href="/">GauravMDb</a>
 
                 {/* Toggle Button */}
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
+                    <i className="fa-solid fa-bars"></i>
                 </button>
 
                 {/* Searchbox */}
@@ -27,15 +27,12 @@ const Navbar = () => {
                             <a className="nav-link" href="/">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/">Link</a>
+                            <a className="nav-link" href="/">About</a>
                         </li>
                         <li className="nav-item dropdown">
-                            <a className="nav-link" href="/">
-                                Dropdown
+                            <a className="nav-link" href="https://joshigaurav.site/" target="_blank" rel="norefferer">
+                                Developer
                             </a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled" href="/" >Disabled</a>
                         </li>
                     </ul>
                 </div>
