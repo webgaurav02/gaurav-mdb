@@ -1,0 +1,22 @@
+.home{
+    min-height: 100svh;
+    display: flex;
+    align-items: center;
+}
+
+.search-movie{
+    padding-top: 1.5%;
+}
+
+.search-movie input{
+    width: calc(100% - 100px);
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.search-movie button{
+    background: none;
+    border-radius: 100px;
+    border: none;
+}
