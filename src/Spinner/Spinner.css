@@ -1,6 +1,6 @@
 .spinner-container{
     text-align: center;
-    margin-top: calc(30svh);
+    padding-top: calc(30svh);
     height: 40svh;
 }
 

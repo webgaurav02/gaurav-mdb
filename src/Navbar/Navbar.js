@@ -1,6 +1,6 @@
 import "./Navbar.css"
 
-const Navbar = () => {
+const Navbar = (props) => {
 
     return (
         <>
@@ -16,8 +16,8 @@ const Navbar = () => {
 
                 {/* Searchbox */}
                 <div className="navbar-search">
-                    <input className="mr-2" type="search" placeholder="Search Movie/Series" aria-label="Search" />
-                    <button className="btn my-2 my-sm-0" type="submit"><i className="fa-solid fa-magnifying-glass"></i></button>
+                    <input className="mr-2" type="search" placeholder="Search Movie/Series" aria-label="Search" id="navSearch" />
+                    <button className="btn my-2 my-sm-0" type="submit"><i className="fa-solid fa-magnifying-glass" onClick={props.search}></i></button>
                 </div>
 
                 {/* nav-items */}
@@ -30,7 +30,7 @@ const Navbar = () => {
                             <a className="nav-link" href="/">About</a>
                         </li>
                         <li className="nav-item dropdown">
-                            <a className="nav-link" href="https://joshigaurav.site/" target="_blank" rel="norefferer">
+                            <a className="nav-link" href="https://joshigaurav.site/" target="_blank" rel="noreferrer">
                                 Developer
                             </a>
                         </li>

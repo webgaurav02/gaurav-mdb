@@ -5,7 +5,7 @@ import SearchResults from './SearchResults/SearchResults';
 import Movie from './Movie/Movie';
 import Footer from './Footer/Footer';
 import { useEffect, useState } from 'react';
-import Spinner from './Spinner/Spinner';
+import Loading from "./Loading"
 
 
 function App() {
@@ -19,6 +19,30 @@ function App() {
   const [isLoading, setLoading] = useState(false);
   const [id, setId] = useState(null);
   const [movie, setMovie] = useState(null);
+
+
+
+  const navSearch = async () => {
+    console.log("Called!");
+    setId(null)
+    setMovie(null)
+    setPage(prev => prev - 1);
+    setLoading(true);
+    const text = document.getElementById('navSearch').value;
+    let url = `https://www.omdbapi.com/?apikey=${API_KEY}&s=${text}&page=${pageNo}`;
+    setSearchText(text);
+    try {
+      let data = await fetch(url);
+      let parsedData = await data.json();
+      setSearchRes(parsedData.Search);
+      setLength(parsedData.totalResults);
+      setPage((prev) => prev + 1);
+    }
+    catch (error) {
+      console.error('Error fetching data:', error);
+    }
+    setLoading(false);
+  }
 
 
   const searchForMovie = async () => {
@@ -117,7 +141,7 @@ function App() {
     try {
       let data = await fetch(url);
       let parsedData = await data.json();
-      console.log(parsedData);
+      // console.log(parsedData);
       setMovie(parsedData);
     }
     catch (error) {
@@ -135,8 +159,9 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      {!searchRes && <Home searchMovie={searchForMovie} />}
+      <Navbar search={navSearch} />
+      {!searchRes && !isLoading && <Home searchMovie={searchForMovie} />}
+      {isLoading && <Loading />}
       {searchRes && !id && <SearchResults
         results={searchRes}
         text={searchText}
